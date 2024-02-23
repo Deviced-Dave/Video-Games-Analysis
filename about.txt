@@ -1,0 +1,38 @@
+
+This is a dataset extracted from kaggle.com on 6th february 2024 and as of now there have been 2770 downloads and
+15.2K views. The publisher of this document is named on the platform as 
+ULRIK THYGE PEDERSEN (https://www.kaggle.com/datasets/ulrikthygepedersen/video-games-sales#:~:text=ULRIK%20THYGE%20PEDERSEN)
+
+Link to access this dataset: - https://www.kaggle.com/datasets/ulrikthygepedersen/video-games-sales
+
+Description: - 
+This dataset provides information about video games sales in different years, regions and platforms.
+There is no elaborate discussion from the publisher of this dataset about how he acquired this data.
+So, this analysis will mainly be based for educational purposes and not intended to be taken seriously.
+
+There are 16598 rows and 11 columns.
+
+Aim: - Using PostgreSQL, analysis of this data will be carried out to test the skills and possibly answer
+questions that are hard to achieve manually.
+
+Dataset attributes description:
+
+rank (int) - rank of video game in same row based on sales
+
+name (String) - Name of that game
+
+platform (String) - Platform the game was most sold on
+
+year (float) - Year of the game released
+
+genre (String) - genre of the game
+
+publisher (String) - Publisher or creator of that game ()
+
+na_sales (float) - Sales in North America (in millions)
+
+eu_sales (float) - Salse in Europe (in millions)
+
+jp_sales (float) - Sales in Japan (in millions)
+
+other_sales (float) - Sales anywhere else than North America, Europe and Japan (in millions)
